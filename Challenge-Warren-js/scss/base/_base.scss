@@ -1,0 +1,88 @@
+
+/* ============== header Section ======================= */
+header{
+    margin: 0 auto;
+    background-color: white;
+    width: 900px;
+    padding: 10px 20px;
+}
+
+
+/* ============== Main Section ======================= */
+.energy-overlay{
+    position: relative;
+    height: 100%;
+    .f{
+        position: absolute;
+        top: 1px;
+        right: 16px;
+        color: black;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .long-dash{
+        position: absolute;
+        right: 0px;
+        display: block;
+        height: 2px;
+        width: 15px;
+        background-color: black;
+    }
+    .l-d-top{
+        top: 6px;
+    }
+    .l-d-middle{
+        top: 175px;
+    }
+    .l-d-bottom{
+        bottom: 6px;
+    }
+    .small-dash{
+        position: absolute;
+        right: 0px;
+        display: block;
+        height: 1px;
+        width: 7px;
+        background-color: black;
+    }
+    .s-d-one{
+        top: 62px; 
+    }
+    .s-d-two{
+        top: 118px;
+    }
+    .s-d-three{
+        bottom: 62px;
+    }
+    .s-d-four{
+        bottom: 118px;
+    }
+    .e{
+        position: absolute;
+        bottom: 1px;
+        right: 16px;
+        color: black;
+        font-size: 11px;
+        font-weight: bold;
+    }
+}
+
+.hidden{
+    display: none;
+}
+
+.form{
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    h1{
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+  
